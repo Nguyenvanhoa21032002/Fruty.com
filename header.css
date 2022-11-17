@@ -95,7 +95,9 @@ html {
     cursor: pointer;
 }
 
+
 .more-in4-section {
+    text-align: justify;
     display: grid;
     grid-template-columns: 24% 24% 24% 24%;
     justify-content: space-between;
