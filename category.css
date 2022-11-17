@@ -1,0 +1,247 @@
+:root {
+    --green-main: #2b582e;
+    --green-ye: #4e701e;
+    --yellow: #e8dd76;
+    --orange: orange;
+    --green: green;
+    --blue: #4964a1;
+    --white: #fff;
+    --bg-color: #fff;
+    --main-color: #fd4646;
+    --text-color: #171427;
+}
+
+/* Cart */
+.cart_main {
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    right: -100%;
+    width: 350px;
+    min-height: 100vh;
+    padding: 20px;
+    background-color: var(--bg-color);
+    box-shadow: -2px 0 4px hsl(0 4% 15% / 10%);
+    transform: 0.3s;
+}
+
+.cart_main.active {
+    right: 0;
+    bottom: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.cart-title {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.cart-box {
+    display: grid;
+    grid-template-columns: 25% 57% 18%;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.cart-img {
+    width: 80px;
+    height: 80px;
+    /* margin-right: 35px; */
+    object-fit: contain;
+    padding: 10px;
+}
+
+.cart-price {
+    font-weight: 500;
+}
+
+.cart-quantity {
+    border: 1px solid var(--text-color);
+    outline-color: var(--main-color);
+    width: 2.4rem;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.cart-remove{
+    font-size: 24px;
+    color: var(--main-color);
+    cursor: pointer;
+}
+
+.total {
+    display: flex;
+    margin-top: 1.5rem;
+    justify-content: flex-end;
+    border-top: 1px solid var(--text-color);
+}
+
+.total-title {
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.total-price {
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+}
+
+.btn-buy {
+    display: flex;
+    margin: 1.5rem auto 0 auto;
+    padding: 12px 20px;
+    border: none;
+    background: var(--main-color);
+    color: var(--bg-color);
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.btn-buy:hover {
+    background-color: var(--text-color);
+}
+
+.detail-box {
+    display: grid;
+    row-gap: 0.5rem;
+}
+
+.cart-product-title {
+    font-size: 1rem;
+    text-transform: uppercase;
+
+}
+
+#close-cart {
+    position: absolute;
+    top: 1rem;
+    right: .8rem;
+    font-size: 2rem;
+    color: var(--text-color);
+    cursor: pointer;
+}
+
+/* Category */
+.category .heading {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.category .heading h1{
+    text-transform: uppercase;
+    color: var(--green);
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.category .heading .heading1{
+    margin-top: 120px;
+}
+
+.category .heading p{
+    text-transform: uppercase;
+    color: #383739;
+    font-size: 15px;
+}
+
+.category .fruits {
+    padding: 20px;
+    display: grid;
+    column-gap: 1.5%;
+    grid-template-columns: 24% 24% 24% 24%;
+    text-align: center;
+}
+
+.category .fruits .fruit img{
+    margin-top: 12px;
+    margin-bottom: 5px;
+    border-radius: 9px;
+    height: 200px;
+}
+
+.category .fruits .fruit p{
+    text-align: center;
+}
+
+.category .fruits .fruit {
+    margin-bottom: 25px;
+    border: 1px solid #888;
+    border-radius: 7px;
+    height: 350px;
+}
+
+.category .fruits .fruit:hover{
+    border: 1px solid #000;
+}
+
+.category .fruits .fruit .price{
+    color: red;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.category .fruits .fruit .button{
+    background-color: var(--green);
+    opacity: .8;
+    padding: 7px 20px;
+    align-self: center;
+    border-radius: 5px;
+    color: var(--white);
+    cursor: pointer;
+}
+
+.category .fruits .fruit .button:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.category .fruits .fruit .button i{
+    margin-right: 8px;
+}
+
+footer {
+    margin-top: 10px;
+    background-color: #221e27;
+}
+
+footer .subcribe-section {
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+footer .subcribe-section .input-form{
+    background-color: #fff;
+}
+
+footer .subcribe-section .input-form input::placeholder {
+    color:#221e27;
+}
+
+footer .subcribe-section .input-form input,
+footer .subcribe-section .input-form button{
+    border: none;
+    padding: 5px 10px;
+    font-weight: 500;
+    outline: none;
+}
+
+footer .subcribe-section .input-form button{
+    color: #fff;
+    background-color: #fe4502;
+}
+
+footer .subcribe-section .input-form button:hover{
+    background-color: #fe0f02;
+    cursor: pointer;
+}

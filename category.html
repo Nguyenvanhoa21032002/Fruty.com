@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sản Phẩm</title>
+
+    <link rel="shortcut icon" href="./img/logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="./header.css">
+    <link rel="stylesheet" href="./category.css">
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+</head>
+<body>
+    <!-- Header section start -->
+    <header class="header" id="header">
+        <nav class="navbar">
+                <div class="logo">
+                    <a href="index.html">Fruty<span>.</span></a>
+                </div>
+    
+                <ul class="nav-items">
+                    <li><a href="index.html">Trang chủ</a></li>
+                    <li><a href="category.html">Sản phẩm</a></li>
+                    <li><a href="contact.html">Liên hệ</a></li>
+                    <i class="fa-solid fa-cart-shopping" id="cart-icon"></i>
+                </ul>
+            </nav>
+        
+        <div class="cart_main">
+            <h2 class="cart-title">Giỏ hàng của bạn</h2>
+            <!-- content -->
+            <div class="cart-content" id="itemstorage">
+                
+            </div>
+            <!-- total -->
+            <div class="total">
+                <div class="total-title">Tổng: </div>
+                <div class="total-price">0</div>
+            </div>
+            <!-- Buy btn -->
+            <button type="button" class="btn-buy">Thanh toán ngay</button>
+            <!-- cart close -->
+            <i class="fa-solid fa-xmark" id="close-cart"></i>   
+        </div>
+    </header>
+    <!-- Header section end -->
+
+    <div class="category">
+        <div class="heading" id="trend_fruit">
+            <h1 class="heading1">hoa quả bán chạy</h1>
+            <p style="margin-top: 10px;">những loại hoa quả được bán chạy nhất tuần này</p>
+        </div>
+
+        <div class="fruits">
+            <div class="fruit">
+                <img src="./img/25.jpg" alt="" class="product-img">
+                <p class="product-title">Lựu Đỏ Feru</p>
+                <p class="price">100.000 VND</p>
+                <a class="button add-cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Thêm vào giỏ hàng
+                </a>
+            </div>
+
+            <div class="fruit">
+                <img src="./img/26.jpg" alt="" class="product-img">
+                <p class="product-title">Me Ngâm Chua Ngọt</p>
+                <p class="price">60.000 VND</p>
+                <a class="button add-cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Thêm vào giỏ hàng
+                </a>
+            </div>
+
+            <div class="fruit">
+                <img src="./img/27.jpg" alt="" class="product-img">
+                <p class="product-title">Nho Xanh Hàn Quốc</p>
+                <p class="price">200.000 VND</p>
+                <a class="button add-cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Thêm vào giỏ hàng
+                </a>
+            </div>
+
+            <div class="fruit">
+                <img src="./img/28.jpg" alt="" class="product-img">
+                <p class="product-title">Lê Mỹ</p>
+                <p class="price">80.000 VND</p>
+                <a class="button add-cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Thêm vào giỏ hàng
+                </a>
+            </div>
+
+            <div class="fruit">
+                <img src="./img/29.jpg" alt="" class="product-img">
+                <p class="product-title">Dâu Tây Hàn Quốc</p>
+                <p class="price">80.000 VND</p>
+                <a class="button add-cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Thêm vào giỏ hàng
+                </a>
+            </div>
+
+            <div class="fruit">
+                <img src="./img/30.jpg" alt="" class="product-img">
+                <p class="product-title">Nho Đen Nhật Bản</p>
+                <p class="price">80.000 VND</p>
+                <a class="button add-cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Thêm vào giỏ hàng
+                </a>
+            </div>
+
+            <div class="fruit">
+                <img src="./img/36.jpg" alt="" class="product-img">
+                <p class="product-title">Nho Đỏ Chuỗi ngọc</p>
+                <p class="price">400.000 VND</p>
+                <a class="button add-cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Thêm vào giỏ hàng
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="category">
+        <div class="heading" id="import_fruit">
+            <h1>hoa quả nhập khẩu</h1>
+            <p style="margin-top: 10px;">tất cả các loại trái cây tươi nhập khẩu theo mùa từ nhiều nước trên thế giới</p>
+        </div>
+
+        <div class="fruits">
+            <div class="fruit">
+                <img src="./img/1.jpg" alt="" class="product-img">
+                <p class="product-title">Cam Valencia Ai Cập</p>
+                <p class="price">200.000 VND</p>
+                <a class="button add-cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Thêm vào giỏ hàng
+                </a>
+            </div>
+
+            <div class="fruit">
+                <img src="./img/2.jpg" alt="" class="product-img">
+                <p class="product-title">Chà Là Tươi Ấn Độ</p>
+                <p class="price">150.000 VND</p>
+                <a class="button add-cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Thêm vào giỏ hàng
+                </a>
+            </div>
+
+            <div class="fruit">
+                <img src="./img/3.jpg" alt="" class="product-img">
+                <p class="product-title">Cherry Mỹ</p>
+                <p class="price">300.000 VND</p>
+                <a class="button add-cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Thêm vào giỏ hàng
+                </a>
+            </div>
+
+            <div class="fruit">
+                <img src="./img/4.jpg" alt="" class="product-img">
+                <p class="product-title">Cam Vàng Nevel Mỹ</p>
+                <p class="price">250.000 VND</p>
+                <a class="button add-cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Thêm vào giỏ hàng
+                </a>
+            </div>
+
+            <div class="fruit">
+                <img src="./img/5.jpg" alt="" class="product-img">
+                <p class="product-title">Dưa Lưới Đài Loan</p>
+                <p class="price">230.000 VND</p>
+                <a class="button add-cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Thêm vào giỏ hàng
+                </a>
+            </div>
+
+            <div class="fruit">
+                <img src="./img/6.jpg" alt="" class="product-img">
+                <p class="product-title">Dưa Lê Hàn Quốc</p>
+                <p class="price">300.000 VND</p>
+                <a class="button add-cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Thêm vào giỏ hàng
+                </a>
+            </div>
+
+            <div class="fruit">
+                <img src="./img/37.jpg" alt="" class="product-img">
+                <p class="product-title">Nho sữa nhật</p>
+                <p class="price">2000.000 VND</p>
+                <a class="button add-cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Thêm vào giỏ hàng
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="category">
+        <div class="heading" id="vn_fruit">
+            <h1>hoa quả việt nam</h1>
+            <p style="margin-top: 10px;">tất cả các loại trái cây tươi từ mọi miền tổ quốc việt nam</p>
+        </div>
+
+        <div class="fruits">
+            <div class="fruit">
+                <img src="./img/7.jpg" alt="" class="product-img">
+                <p class="product-title">Vải thiều </p>
+                <p class="price">50.000 VND</p>
+                <a class="button add-cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Thêm vào giỏ hàng
+                </a>
+            </div>
+
+            <div class="fruit">
+                <img src="./img/8.jpg" alt="" class="product-img">
+                <p class="product-title">Chuối Tiền Giang</p>
+                <p class="price">40.000 VND</p>
+                <a class="button add-cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Thêm vào giỏ hàng
+                </a>
+            </div>
+
+            <div class="fruit">
+                <img src="./img/9.jpg" alt="" class="product-img">
+                <p class="product-title">Bưởi Năm Roi</p>
+                <p class="price">80.000 VND</p>
+                <a class="button add-cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Thêm vào giỏ hàng
+                </a>
+            </div>
+
+            <div class="fruit">
+                <img src="./img/10.jpg" alt="" class="product-img">
+                <p class="product-title">Dưa Hấu</p>
+                <p class="price">80.000 VND</p>
+                <a class="button add-cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Thêm vào giỏ hàng
+                </a>
+            </div>
+
+            <div class="fruit">
+                <img src="./img/11.jpg" alt="" class="product-img">
+                <p class="product-title">Sầu Riêng</p>
+                <p class="price">150.000 VND</p>
+                <a class="button add-cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Thêm vào giỏ hàng
+                </a>
+            </div>
+
+            <div class="fruit">
+                <img src="./img/12.jpg" alt="" class="product-img">
+                <p class="product-title">Hồng Xiêm</p>
+                <p class="price">60.000 VND</p>
+                <a class="button add-cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Thêm vào giỏ hàng
+                </a>
+            </div>
+
+            <div class="fruit">
+                <img src="./img/34.jpg" alt="" class="product-img">
+                <p class="product-title">Ổi bo thanh hà</p>
+                <p class="price">30.000 VND</p>
+                <a class="button add-cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Thêm vào giỏ hàng
+                </a>
+            </div>
+
+            <div class="fruit">
+                <img src="./img/35.jpg" alt="" class="product-img">
+                <p class="product-title">chôm chôm long khánh</p>
+                <p class="price">45.000 VND</p>
+                <a class="button add-cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Thêm vào giỏ hàng
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="category">
+        <div class="heading" id="gift_fruit">
+            <h1>Hoa quả biếu tặng</h1>
+            <p style="margin-top: 10px;">các giỏ hoa quả siêu đẹp và đầy ý nghĩa, thích hợp cho nhiều sự kiện</p>
+        </div>
+
+        <div class="fruits">
+            <div class="fruit">
+                <img src="./img/13.jpg" alt="" class="product-img">
+                <p class="product-title">Giỏ Trái Cây Cúng</p>
+                <p class="price">200.000 VND</p>
+                <a class="button add-cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Thêm vào giỏ hàng
+                </a>
+            </div>
+
+            <div class="fruit">
+                <img src="./img/14.jpg" alt="" class="product-img">
+                <p class="product-title">Giỏ Trái Cây Thăm Hỏi</p>
+                <p class="price">250.000 VND</p>
+                <a class="button add-cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Thêm vào giỏ hàng
+                </a>
+            </div>
+
+            <div class="fruit">
+                <img src="./img/15.jpg" alt="" class="product-img">
+                <p class="product-title">Giỏ Trái Cây Biếu Tặng</p>
+                <p class="price">250.000 VND</p>
+                <a class="button add-cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Thêm vào giỏ hàng
+                </a>
+            </div>
+
+            <div class="fruit">
+                <img src="./img/16.jpg" alt="" class="product-img">
+                <p class="product-title">Giỏ trái cây loại 1</p>
+                <p class="price">300.000 VND</p>
+                <a class="button add-cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Thêm vào giỏ hàng
+                </a>
+            </div>
+
+            <div class="fruit">
+                <img src="./img/17.jpg" alt="" class="product-img">
+                <p class="product-title">Giỏ Trái Cây Kèm Hoa Tươi</p>
+                <p class="price">290.000 VND</p>
+                <a class="button add-cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Thêm vào giỏ hàng
+                </a>
+            </div>
+
+            <div class="fruit">
+                <img src="./img/18.jpg" alt="" class="product-img">
+                <p class="product-title">Giỏ Trái Cây Đẹp</p>
+                <p class="price">300.000 VND</p>
+                <a class="button add-cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Thêm vào giỏ hàng
+                </a>
+            </div>
+
+            <div class="fruit">
+                <img src="./img/33.jpg" alt="" class="product-img">
+                <p class="product-title">Giỏ Trái Cây Sinh Nhật</p>
+                <p class="price">350.000 VND</p>
+                <a class="button add-cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Thêm vào giỏ hàng
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="category">
+        <div class="heading" id="fry_fruit">
+            <h1>Hoa quả sấy khô</h1>
+            <p style="margin-top: 10px;">tất cả các loại trái cây được sấy thơm, giòn cực ngon</p>
+        </div>
+
+        <div class="fruits">
+            <div class="fruit">
+                <img src="./img/19.jpg" alt="" class="product-img">
+                <p class="product-title">Mít Sấy Khô</p>
+                <p class="price">50.000 VND</p>
+                <a class="button add-cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Thêm vào giỏ hàng
+                </a>
+            </div>
+
+            <div class="fruit">
+                <img src="./img/20.jpg" alt="" class="product-img">
+                <p class="product-title">chuối Sấy Khô</p>
+                <p class="price">50.000 VND</p>
+                <a class="button add-cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Thêm vào giỏ hàng
+                </a>
+            </div>
+
+            <div class="fruit">
+                <img src="./img/21.jpg" alt="" class="product-img">
+                <p class="product-title">Mít Sấy Dẻo</p>
+                <p class="price">50.000 VND</p>
+                <a class="button add-cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Thêm vào giỏ hàng
+                </a>
+            </div>
+
+            <div class="fruit">
+                <img src="./img/22.jpg" alt="" class="product-img">
+                <p class="product-title">kiwi Sấy Dẻo</p>
+                <p class="price">50.000 VND</p>
+                <a class="button add-cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Thêm vào giỏ hàng
+                </a>
+            </div>
+
+            <div class="fruit">
+                <img src="./img/23.jpg" alt="" class="product-img">
+                <p class="product-title">Mít Sấy rộp rộp</p>
+                <p class="price">50.000 VND</p>
+                <a class="button add-cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Thêm vào giỏ hàng
+                </a>
+            </div>
+
+            <div class="fruit">
+                <img src="./img/24.jpg" alt="" class="product-img">
+                <p class="product-title">Xoài Sấy Muối Ớt</p>
+                <p class="price">50.000 VND</p>
+                <a class="button add-cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Thêm vào giỏ hàng
+                </a>
+            </div>
+
+            <div class="fruit">
+                <img src="./img/31.jpg" alt="" class="product-img">
+                <p class="product-title">Khoai lang sấy giòn</p>
+                <p class="price">50.000 VND</p>
+                <a class="button add-cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Thêm vào giỏ hàng
+                </a>
+            </div>
+
+            <div class="fruit">
+                <img src="./img/32.jpg" alt="" class="product-img">
+                <p class="product-title">mận sấy dẻo</p>
+                <p class="price">50.000 VND</p>
+                <a class="button add-cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Thêm vào giỏ hàng
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="subcribe-section">
+            <p>Đăng ký để nhận tất cả thông tin mới sớm nhất</p>
+            <form class="input-form">
+                <input type="text" placeholder="Nhập Email của bạn" required>
+                <button type="submit">Đăng ký</button>
+            </form>
+        </div>
+
+        <div class="more-in4-section">
+            <div class="fruty">
+                <h3>
+                    Fruty
+                    <p class="boder-bt"></p>
+                </h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, illo.</p>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+            </div>
+
+            <div class="menu">
+                <h3>
+                    Menu
+                    <p class="boder-bt"></p>
+                </h3>
+                <p><a href="index.html">Trang chủ</a></p>
+                <p><a href="category.html">Sản phẩm</a></p>
+                <p><a href="contact.html">Liên hệ</a></p>
+            </div>
+
+            <div class="top-prod">
+                <h3>
+                    Sản phẩm hàng đầu
+                    <p class="boder-bt"></p>
+                </h3>
+                <p>Táo</p>
+                <p>Dưa hấu</p>
+                <p>Nho xanh Hàn Quốc</p>
+                <p>Dâu tây</p>
+                <p>Cam Valencia</p>
+            </div>
+            
+            <div class="payment">
+                <h3>
+                    Thanh toán
+                    <p class="boder-bt"></p>
+                </h3>
+                <div class="pay-method">
+                    <p><i class="fa-brands fa-cc-amazon-pay"></i></p>
+                    <p><i class="fa-brands fa-cc-mastercard"></i></p>
+                    <p><i class="fa-brands fa-cc-paypal"></i></p>
+                    <p><i class="fa-brands fa-cc-visa"></i></p>
+                    <p><i class="fa-brands fa-cc-discover"></i></p>
+                    <p><i class="fa-brands fa-cc-jcb"></i></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/cate.js"></script>
+</body>
