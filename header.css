@@ -131,6 +131,11 @@ html {
     cursor: pointer;
 }
 
+.more-in4-section .fruty p:hover {
+    color: #fff;
+    cursor: text;
+}
+
 .more-in4-section .fruty a i{
     margin-top: 10px;
     margin-right: 5px;
